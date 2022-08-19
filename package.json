@@ -1,0 +1,22 @@
+{
+  "name": "pa11y-test",
+  "version": "1.0.0",
+  "description": "accessibility testing using pa11y with axe core runner",
+  "main": "index.js",
+  "scripts": {
+    "runAllTest": "runAccessibility",
+    "runSingleTest": "runAccessibility --test tests/firstTest.js"
+  },
+  "keywords": [
+    "accessibility",
+    "testing",
+    "axe",
+    "a11y",
+    "pa11y"
+  ],
+  "author": "Dikshita Shirodkar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}

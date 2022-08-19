@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8"/>
+	<title>Accessibility Report For "https://www.saucedemo.com/" (Fri Aug 19 2022 15:27:56 GMT+0530 (India Standard Time))</title>
+
+	<style>
+
+		html, body {
+			margin: 0;
+			padding: 0;
+			background-color: #fff;
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 16px;
+			line-height: 22px;
+			color: #333;
+		}
+		li {
+			margin-bottom: 15px;
+		}
+		h1, h2, p, pre, ul {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+		h1 {
+			margin-bottom: 10px;
+			font-size: 24px;
+			line-height: 24px;
+		}
+		h2 {
+			font-size: 16px;
+		}
+		pre {
+			white-space: pre-wrap;
+			overflow: auto;
+		}
+
+		.page {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 25px;
+		}
+
+		.counts {
+			margin-top: 30px;
+			font-size: 20px;
+		}
+		.count {
+			display: inline-block;
+			padding: 5px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+		}
+
+		.clean-list {
+			margin-left: 0;
+			padding-left: 0;
+			list-style: none;
+		}
+		.results-list {
+			margin-top: 30px;
+		}
+
+		.result {
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #eee;
+		}
+		.error {
+			background-color: #fdd;
+			border-color: #ff9696;
+		}
+		.warning {
+			background-color: #ffd;
+			border-color: #e7c12b;
+		}
+		.notice {
+			background-color: #eef4ff;
+			border-color: #b6d0ff;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div class="page">
+
+		<h1>Accessibility Report For "https://www.saucedemo.com/"</h1>
+		<p>Generated at: Fri Aug 19 2022 15:27:56 GMT+0530 (India Standard Time)</p>
+
+		<p class="counts">
+			<span class="count error">4 errors</span>
+			<span class="count warning">5 warnings</span>
+			<span class="count notice">17 notices</span>
+		</p>
+
+		<ul class="clean-list results-list">
+			<li class="result warning">
+				<h2>Warning: Document should have one main landmark (https://dequeuniversity.com/rules/axe/4.2/landmark-one-main?application=axeAPI)</h2>
+				<p>landmark-one-main</p>
+				<pre>&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;li...&lt;/html&gt; (select with "html")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: Page should contain a level-one heading (https://dequeuniversity.com/rules/axe/4.2/page-has-heading-one?application=axeAPI)</h2>
+				<p>page-has-heading-one</p>
+				<pre>&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;li...&lt;/html&gt; (select with "html")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: All page content should be contained by landmarks (https://dequeuniversity.com/rules/axe/4.2/region?application=axeAPI)</h2>
+				<p>region</p>
+				<pre>&lt;div id=&quot;root&quot;&gt;&lt;div&gt;&lt;div class=&quot;login_logo&quot;&gt;&lt;/...&lt;/div&gt; (select with "#root")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that the title element describes the document.</h2>
+				<p>WCAG2A.Principle2.Guideline2_4.2_4_2.H25.2</p>
+				<pre>&lt;title&gt;Swag Labs&lt;/title&gt; (select with "html &gt; head &gt; title")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: If an input error is automatically detected in this form, check that the item(s) in error are identified and the error(s) are described to the user in text.</h2>
+				<p>WCAG2A.Principle3.Guideline3_3.3_3_1.G83,G84,G85</p>
+				<pre>&lt;form&gt;&lt;div class=&quot;form_group&quot;&gt;&lt;input ...&lt;/form&gt; (select with "#login_button_container &gt; div &gt; form")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that descriptive labels or instructions (including for required fields) are provided for user input in this form.</h2>
+				<p>WCAG2A.Principle3.Guideline3_3.3_3_2.G131,G89,G184,H90</p>
+				<pre>&lt;form&gt;&lt;div class=&quot;form_group&quot;&gt;&lt;input ...&lt;/form&gt; (select with "#login_button_container &gt; div &gt; form")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This textinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.</h2>
+				<p>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.InputText.Name</p>
+				<pre>&lt;input class=&quot;input_error form_input&quot; placeholder=&quot;Username&quot; type=&quot;text&quot; data-test=&quot;username&quot; id=&quot;user-name&quot; name=&quot;user-name&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;none&quot; value=&quot;&quot;&gt; (select with "#user-name")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This form field should be labelled in some way. Use the label element (either with a &quot;for&quot; attribute or wrapped around the form field), or &quot;title&quot;, &quot;aria-label&quot; or &quot;aria-labelledby&quot; attributes as appropriate.</h2>
+				<p>WCAG2A.Principle1.Guideline1_3.1_3_1.F68</p>
+				<pre>&lt;input class=&quot;input_error form_input&quot; placeholder=&quot;Username&quot; type=&quot;text&quot; data-test=&quot;username&quot; id=&quot;user-name&quot; name=&quot;user-name&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;none&quot; value=&quot;&quot;&gt; (select with "#user-name")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that a change of context does not occur when this input field receives focus.</h2>
+				<p>WCAG2A.Principle3.Guideline3_2.3_2_1.G107</p>
+				<pre>&lt;input class=&quot;input_error form_input&quot; placeholder=&quot;Username&quot; type=&quot;text&quot; data-test=&quot;username&quot; id=&quot;user-name&quot; name=&quot;user-name&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;none&quot; value=&quot;&quot;&gt; (select with "#user-name")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This passwordinput element does not have a name available to an accessibility API. Valid names are: label element, title undefined, aria-label undefined, aria-labelledby undefined.</h2>
+				<p>WCAG2A.Principle4.Guideline4_1.4_1_2.H91.InputPassword.Name</p>
+				<pre>&lt;input class=&quot;input_error form_input&quot; placeholder=&quot;Password&quot; type=&quot;password&quot; data-test=&quot;password&quot; id=&quot;password&quot; name=&quot;password&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;none&quot; value=&quot;&quot;&gt; (select with "#password")</pre>
+			</li>
+			<li class="result error">
+				<h2>Error: This form field should be labelled in some way. Use the label element (either with a &quot;for&quot; attribute or wrapped around the form field), or &quot;title&quot;, &quot;aria-label&quot; or &quot;aria-labelledby&quot; attributes as appropriate.</h2>
+				<p>WCAG2A.Principle1.Guideline1_3.1_3_1.F68</p>
+				<pre>&lt;input class=&quot;input_error form_input&quot; placeholder=&quot;Password&quot; type=&quot;password&quot; data-test=&quot;password&quot; id=&quot;password&quot; name=&quot;password&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;none&quot; value=&quot;&quot;&gt; (select with "#password")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that a change of context does not occur when this input field receives focus.</h2>
+				<p>WCAG2A.Principle3.Guideline3_2.3_2_1.G107</p>
+				<pre>&lt;input class=&quot;input_error form_input&quot; placeholder=&quot;Password&quot; type=&quot;password&quot; data-test=&quot;password&quot; id=&quot;password&quot; name=&quot;password&quot; autocorrect=&quot;off&quot; autocapitalize=&quot;none&quot; value=&quot;&quot;&gt; (select with "#password")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that a change of context does not occur when this input field receives focus.</h2>
+				<p>WCAG2A.Principle3.Guideline3_2.3_2_1.G107</p>
+				<pre>&lt;input type=&quot;submit&quot; class=&quot;submit-button btn_action&quot; data-test=&quot;login-button&quot; id=&quot;login-button&quot; name=&quot;login-button&quot; value=&quot;Login&quot;&gt; (select with "#login-button")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: The heading structure is not logically nested. This h4 element appears to be the primary document heading, so should be an h1 element.</h2>
+				<p>WCAG2A.Principle1.Guideline1_3.1_3_1_A.G141</p>
+				<pre>&lt;h4&gt;Accepted usernames are:&lt;/h4&gt; (select with "#login_credentials &gt; h4")</pre>
+			</li>
+			<li class="result warning">
+				<h2>Warning: The heading structure is not logically nested. This h4 element should be an h1 to be properly nested.</h2>
+				<p>WCAG2A.Principle1.Guideline1_3.1_3_1_A.G141</p>
+				<pre>&lt;h4&gt;Accepted usernames are:&lt;/h4&gt; (select with "#login_credentials &gt; h4")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that the content is ordered in a meaningful sequence when linearised, such as when style sheets are disabled.</h2>
+				<p>WCAG2A.Principle1.Guideline1_3.1_3_2.G57</p>
+				<pre> (select with "")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Where instructions are provided for understanding the content, do not rely on sensory characteristics alone (such as shape, size or location) to describe objects.</h2>
+				<p>WCAG2A.Principle1.Guideline1_3.1_3_3.G96</p>
+				<pre> (select with "")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that any information conveyed using colour alone is also available in text, or through other visual cues.</h2>
+				<p>WCAG2A.Principle1.Guideline1_4.1_4_1.G14,G182</p>
+				<pre> (select with "")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that if a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then at least one of the following is true:              Turn off: A mechanism is available to turn the shortcut off;         Remap: A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g. Ctrl, Alt, etc);         Active only on focus: The keyboard shortcut for a user interface component is only active when that component has focus.     </h2>
+				<p>WCAG2A.Principle2.Guideline2_1.2_1_4.</p>
+				<pre> (select with "")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: If any part of the content moves, scrolls or blinks for more than 5 seconds, or auto-updates, check that there is a mechanism available to pause, stop, or hide the content.</h2>
+				<p>WCAG2A.Principle2.Guideline2_2.2_2_2.SCR33,SCR22,G187,G152,G186,G191</p>
+				<pre> (select with "")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that no component of the content flashes more than three times in any 1-second period, or that the size of any flashing area is sufficiently small.</h2>
+				<p>WCAG2A.Principle2.Guideline2_3.2_3_1.G19,G176</p>
+				<pre> (select with "")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Ensure that any common navigation elements can be bypassed; for instance, by use of skip links, header elements, or ARIA landmark roles.</h2>
+				<p>WCAG2A.Principle2.Guideline2_4.2_4_1.G1,G123,G124,H69</p>
+				<pre> (select with "")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that all functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.</h2>
+				<p>WCAG2A.Principle2.Guideline2_5.2_5_1.</p>
+				<pre> (select with "")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that for functionality that can be operated using a single pointer, at least one of the following is true:         No Down-Event: The down-event of the pointer is not used to execute any part of the function;         Abort or Undo: Completion of the function is on the up-event, and a mechanism is available to abort the function before completion or to undo the function after completion;         Up Reversal: The up-event reverses any outcome of the preceding down-event;         Essential: Completing the function on the down-event is essential.</h2>
+				<p>WCAG2A.Principle2.Guideline2_5.2_5_2.</p>
+				<pre> (select with "")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that for user interface components with labels that include text or images of text, the name contains the text that is presented visually.</h2>
+				<p>WCAG2A.Principle2.Guideline2_5.2_5_3.F96</p>
+				<pre> (select with "")</pre>
+			</li>
+			<li class="result notice">
+				<h2>Notice: Check that functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation, except when:              Supported Interface: The motion is used to operate functionality through an accessibility supported interface;         Essential: The motion is essential for the function and doing so would invalidate the activity.     </h2>
+				<p>WCAG2A.Principle2.Guideline2_5.2_5_4.</p>
+				<pre> (select with "")</pre>
+			</li>
+		</ul>
+
+	</div>
+
+</body>
+</html>
