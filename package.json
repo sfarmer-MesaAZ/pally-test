@@ -14,7 +14,7 @@
     "a11y",
     "pa11y"
   ],
-  "author": "Dikshita Shirodkar",
+  "author": "Steven Farmer",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.1"

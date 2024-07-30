@@ -15,6 +15,7 @@ module.exports = {
   },
   puppeteer_settings: {
     headless: false,
-    executablePath: '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+    executablePath: '/usr/bin/google-chrome-stable'
   }
 };
+
