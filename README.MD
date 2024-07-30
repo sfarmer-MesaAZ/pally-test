@@ -90,7 +90,7 @@ module.exports = {
 3. Run the command and observe the coverage of a11y (accessibility) issues
 * To run all the tests under `tests` folder, use command:
 ```
-npm run runAccessibility
+  runAccessibility
 ```
 * To run only a specific test from the `tests` folder, use command:
 ```
